@@ -1,0 +1,244 @@
+* {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Arial;
+  border: none;
+}
+div a{
+  text-decoration: none;
+  color: black;
+}
+.header1{
+  display: flex;
+  background-color: rgb(230, 230, 230);
+}
+.left-section{
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin-left: 100px;
+  cursor: pointer;
+}
+.right-section{
+  display: flex;
+  width: 600px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 100px;
+  cursor: pointer;
+}
+.authorities p, .nav-access{
+  font-size: 0.85rem;
+  font-weight: bold;  
+
+}
+.authorities{
+  margin-left: 20px;
+}
+
+.nav-icons img{
+  width: 28px;
+}
+
+/*header2*/
+.header2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.digitalindia{
+  width: 180px;
+}
+.ipu-name{
+  text-align: center;
+}
+.ipu-name p{
+  margin-bottom: 5px;
+}
+.hindi-name, .english-name{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+
+/*header3*/
+.header3{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(230, 230, 230);
+  height: 40px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 300;
+}
+.main-nav select{
+  background-color: rgb(230, 230, 230);
+  font-size: 0.95rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+/*header4*/
+.header4{
+  display: flex; 
+  align-items: center;
+  background-color: #052963;
+  color: white;
+  height: 50px;
+}
+.news{
+  font-size: 1.3rem;
+  font-weight: bold;
+  width: 12%;
+  margin-left: 100px;
+}
+.registration{
+  width: 70%;
+  margin-left: 20px;
+}
+
+/*main-contetn*/
+.main-content{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+}
+.current-events{
+  width: 300px;
+  height: 350px;
+  font-size: 0.90rem;
+  border: 1px solid gray;
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+  font-size: 0.90rem;
+}
+.current-events li{
+  margin-top: 20px;
+}
+li a:hover{
+  text-decoration: underline;
+}
+.view-more{
+  background-color: #fbac1b;
+  color: black;
+  width: 90px;
+  height: 35px;
+  font-size: 0.90rem;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.view-more:hover{
+  color: white;
+}
+.important{
+  margin-top: 50px;
+}
+.information{
+  border: 1px solid gray;
+  padding: 20px 20px 20px 20px;
+  border-radius: 2px;
+  font-size: 0.90rem;
+  height: 180px;
+}
+.information span{
+  background-color: red;
+  color: white;
+  font-size: 0.70rem;
+  padding: 4px 4px 4px 4px;
+}
+.important a:hover{
+  text-decoration: underline;
+}
+.important p{
+  margin-top: 10px;
+}
+
+.introduction{
+  width: 650px;
+}
+.introduction p{
+  margin-top: 20px;
+  line-height: 25px;
+}
+.install-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fbac1b;
+  font-size: 1.3rem;
+  border: 1px solid #fbac1b;
+  margin-top: 20px;
+  height: 70px;
+  border-radius: 8px;
+  transition: 2px;
+  transition: 0.2s;
+}
+.install-box p{
+  margin-top: 0;
+  width: 400px;
+  text-align: center;
+  color: #fbac1b;
+}
+.install-box:hover{
+  background-color: #fbac1b;
+  color: white;
+}
+.install-box p:hover{
+  color: white;
+}
+.registration-link{
+  background-color: rgb(243, 243, 243);
+  border: 1px solid gray;
+  padding: 20px 20px 20px 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 100px;
+}
+.registration-link a{
+  font-size: 1.2rem;
+}
+.registration-link a:hover{
+  text-decoration: underline;
+}
+.news-event{
+  width: 230px;
+  font-size: 0.90rem;
+  border: 1px solid gray;
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+}
+.news-event li{
+  margin-top: 20px;
+}
+
+/*footer*/
+.footer1{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #052963;
+  color: white;
+  height: 80px;
+  margin-top: 10px;
+}
+.footer2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(22, 22, 22);
+  height: 50px;
+}
+.footer2 a{
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  font-size: 0.90rem;
+}
+.footer2 a:hover{
+  text-decoration: underline;
+}
